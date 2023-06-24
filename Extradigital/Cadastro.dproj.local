@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/01/16 15:40:00.000.060,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/01/17 07:26:43.000.060,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/12/15 10:14:50.000.611,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/19 15:13:06.000.242,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/05 15:04:55.000.520,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/12/20 19:47:24.000.538,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/20 13:22:04.000.784,=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/20 13:24:50.000.164,C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uMain.dfm=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/20 13:24:50.000.164,C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uMain.pas=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/20 13:26:27.000.272,C:\temp\Ricardo.Oliveira\Particupar\Extradigital\Cadastro.dproj=C:\Users\ricardo.oliveira\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/06/22 17:32:40.000.728,=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\Unit2.pas</Transaction>
+    <Transaction>2023/06/22 17:33:46.000.678,C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uEstado.dfm=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\Unit2.dfm</Transaction>
+    <Transaction>2023/06/22 17:33:46.000.678,C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uEstado.pas=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\Unit2.pas</Transaction>
+    <Transaction>2023/06/22 18:32:56.000.093,=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uCidade.pas</Transaction>
+    <Transaction>2023/06/22 19:20:54.000.904,=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uEmpresa.pas</Transaction>
+    <Transaction>2023/06/23 07:38:04.000.711,=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uTitular.pas</Transaction>
+    <Transaction>2023/06/24 12:06:36.263,=C:\temp\Ricardo.Oliveira\Particupar\Extradigital\uConsulta.pas</Transaction>
+  </Transactions>
+</BorlandProject>

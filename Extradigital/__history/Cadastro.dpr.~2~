@@ -1,0 +1,16 @@
+program Cadastro;
+
+uses
+  Vcl.Forms,
+  uMain in 'uMain.pas' {frmMain},
+  uEstado in 'uEstado.pas' {frmEstado};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TfrmEstado, frmEstado);
+  Application.Run;
+end.

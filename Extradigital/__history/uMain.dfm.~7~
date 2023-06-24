@@ -1,0 +1,71 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  Align = alClient
+  Caption = 'frmMain'
+  ClientHeight = 299
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\temp\Ricardo.Oliveira\Particupar\DADOS.FDB'
+      'User_Name=sysdba'
+      'Password=masterkey'
+      'Server=localhost'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 48
+    Top = 16
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 48
+    Top = 72
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    Left = 48
+    Top = 128
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'select * from caduf')
+    Left = 280
+    Top = 104
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 344
+    Top = 112
+  end
+  object MainMenu1: TMainMenu
+    Left = 328
+    Top = 176
+    object Cidade1: TMenuItem
+      Caption = 'Estado'
+      OnClick = Cidade1Click
+    end
+    object Cidade2: TMenuItem
+      Caption = 'Cidade'
+    end
+    object E1: TMenuItem
+      Caption = 'Empresa'
+    end
+    object itular1: TMenuItem
+      Caption = 'Titular'
+    end
+    object Funcionario1: TMenuItem
+      Caption = 'Funcionario'
+    end
+  end
+end
